@@ -14,5 +14,4 @@ function Table({countries}) {
         </div>
     )
 }
-
 export default Table
