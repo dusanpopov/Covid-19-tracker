@@ -84,9 +84,7 @@ useEffect(() => {
     fetchData();
     
 }, [casesType]);
-
-
-
+    
     return(
         <div>
             {data?.length > 0 && (
