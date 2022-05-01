@@ -9,7 +9,6 @@ import "leaflet/dist/leaflet.css";
 import './App.css';
 
 function App() {
-  // https://disease.sh/v3/covid-19/countries
   const [countries, setCountries] = useState([]);
   const [country, setCountry] = useState("worldwide");
   const [countryInfo, setCountryInfo] = useState({});
