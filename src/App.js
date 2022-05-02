@@ -27,7 +27,6 @@ function App() {
   }, [])
 
   useEffect(() => {
-
     const getCountiresData = async () => {
       await fetch("https://disease.sh/v3/covid-19/countries")
       .then(response => response.json())
