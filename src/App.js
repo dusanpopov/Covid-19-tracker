@@ -64,15 +64,10 @@ function App() {
   return (
     
     <div className="app">
-
       <div className="app__left">
-
         <div className="app__header">
-
           <h1>Covid 19 Tracker</h1>
-
           <FormControl className="app__dropdown">
-
             <Select variant="outlined" value={country} onChange={onCountryChange}>
             <MenuItem value="worldwide">Worldwide</MenuItem>
               {
@@ -81,9 +76,7 @@ function App() {
                 ))
               }
             </Select>
-
           </FormControl>
-
         </div>
 
         <div className="app__stats">
