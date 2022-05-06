@@ -62,7 +62,6 @@ function App() {
   };
   
   return (
-    
     <div className="app">
       <div className="app__left">
         <div className="app__header">
@@ -90,7 +89,6 @@ function App() {
           <Infobox active={casesType === "recovered"} onClick={e => setCasesType("recovered")} title="Recovered" cases={printStat(countryInfo.todayRecovered)} total={printStat(countryInfo.recovered)}/>
           <Infobox isRed active={casesType === "deaths"} onClick={e => setCasesType("deaths")} title="Deaths" cases={printStat(countryInfo.todayDeaths)} total={printStat(countryInfo.deaths)}/>
         </div>
-
           <Map casesType={casesType} countries={mapCountries} center={mapCenter} zoom={mapZoom} />
       </div>
 
